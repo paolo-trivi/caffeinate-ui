@@ -1,6 +1,6 @@
 # Launch direction
 
-Research checked on 2026-10-25. Keep the repository private while testing.
+Research checked on 2026-10-25. The repository and preview downloads are public.
 
 ## Positioning
 
@@ -20,9 +20,9 @@ The current build uses an ad hoc signature and needs no Apple Developer account.
 
 Keep one installation path prominent in the README, include actual screenshots, and publish versioned binaries with checksums. Do not claim runtime testing on Intel or older macOS versions until it happens.
 
-## Public launch, after approval
+## Launch
 
-Make the repository public only when explicitly authorized. Present a working demo on trivisonno.dev: a short recording of start, duration change, and stop; one sentence explaining the tool; and clear download and source links.
+Before a wider announcement, collect installation and usability feedback on the public preview. Prepare a working demo for trivisonno.dev: a short recording of start, duration change, and stop; one sentence explaining the tool; and clear download and source links.
 
 For Show HN, follow its requirements for a personally developed, substantive project people can actually try, with minimal installation barriers. A generated wrapper alone is not a compelling launch story. Explain the real use case and the engineering decisions, and be available to discuss them. [Show HN guidelines](https://news.ycombinator.com/showhn.html)
 

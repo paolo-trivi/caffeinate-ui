@@ -7,6 +7,7 @@
 <p align="center">A tiny native macOS app that keeps your Mac awake while you make things.</p>
 <p align="center">Swift + SwiftUI · macOS 13+ · Apple Silicon & Intel · MIT</p>
 <p align="center">Made by <a href="https://github.com/paolo-trivi">@paolo-trivi</a> · <a href="https://trivisonno.dev">trivisonno.dev</a> · <a href="https://github.com/paolo-trivi/caffeinate-ui">Source on GitHub</a></p>
+<p align="center"><a href="https://github.com/paolo-trivi/caffeinate-ui/releases/download/v1.0.0-preview.1/Caffeinate-macOS-universal.dmg"><strong>Download for macOS</strong></a> · <a href="https://github.com/paolo-trivi/caffeinate-ui/releases/tag/v1.0.0-preview.1">Release notes</a></p>
 
 Long builds. Remote sessions. One more good idea. Put `caffeinate -disu` in your menu bar, with a small floating desktop panel when you want it closer.
 
@@ -29,7 +30,7 @@ Long builds. Remote sessions. One more good idea. Put `caffeinate -disu` in your
 
 ## Install
 
-Download the universal `.dmg` from [Releases](https://github.com/paolo-trivi/caffeinate-ui/releases), open it, and drag Caffeinate to Applications. Builds include both Apple Silicon and Intel binaries.
+[Download the universal DMG](https://github.com/paolo-trivi/caffeinate-ui/releases/download/v1.0.0-preview.1/Caffeinate-macOS-universal.dmg), open it, and drag Caffeinate to Applications. Builds include both Apple Silicon and Intel binaries. No GitHub account or Xcode is needed. A [ZIP download](https://github.com/paolo-trivi/caffeinate-ui/releases/download/v1.0.0-preview.1/Caffeinate-macOS-universal.zip) is also available.
 
 Preview builds have a local ad hoc signature and are not notarized. macOS may block a downloaded app; if you trust and have verified it, use **System Settings → Privacy & Security → Open Anyway**. You can also build locally using the instructions below. No Apple Developer account is needed.
 

@@ -27,7 +27,13 @@ Long builds. Remote sessions. One more good idea. Put `caffeinate -disu` in your
 - Command-K to start or stop while the panel is focused.
 - No accounts, analytics, network requests, external packages, or administrator access.
 
-## Install from source
+## Install
+
+Download the universal `.dmg` from [Releases](https://github.com/paolo-trivi/caffeinate-ui/releases), open it, and drag Caffeinate to Applications. Builds include both Apple Silicon and Intel binaries.
+
+Preview builds have a local ad hoc signature and are not notarized. macOS may block a downloaded app; if you trust and have verified it, use **System Settings → Privacy & Security → Open Anyway**. You can also build locally using the instructions below. No Apple Developer account is needed.
+
+## Build from source
 
 Requires macOS 13 or later and a Swift 6 toolchain (Xcode 16 or later, or matching Command Line Tools). No Apple Developer account or paid membership is required.
 
@@ -54,7 +60,7 @@ swift test
 
 Builds appear in `dist/`. Open `Package.swift` in Xcode to work on the app.
 
-Build scripts apply a local ad hoc signature. They don't use a Developer ID, contact Apple, or notarize the app. Downloaded builds may be blocked by Gatekeeper. If you trust and have verified the source, use the system's **Privacy & Security → Open Anyway** option. Building locally is the simplest path without a developer account. Public distribution without Gatekeeper warnings requires Developer ID signing and notarization; those are not part of this project setup.
+Build scripts apply a local ad hoc signature. They don't use a Developer ID, contact Apple, or notarize the app. Public distribution without Gatekeeper warnings requires Developer ID signing and notarization; those are not part of this project setup.
 
 ## How it works
 
